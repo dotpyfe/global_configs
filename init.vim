@@ -22,11 +22,11 @@ endif
 syntax enable
 colorscheme dracula
  
-let g:airline#extensions#tabline#enabled = 1                                                                                                                                                                                                                                                                                                                                 
-let g:airline_powerline_fonts = 1                                                                                                                                                                                                                                                                                                                                            
-" IN CASE YOU DON'T HAVE POWERLINE FONTS, USE THE BELOW                                                                                                                                                                                                                                                                                                                      
-" let g:airline#extensions#tabline#left_sep = ' '                                                                                                                                                                                                                                                                                                                            
-" let g:airline#extensions#tabline#left_alt_sep = '|'  
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+" IN CASE YOU DON'T HAVE POWERLINE FONTS, USE THE BELOW
+" let g:airline#extensions#tabline#left_sep = ' '
+" let g:airline#extensions#tabline#left_alt_sep = '|'
  
 set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
  
@@ -56,10 +56,10 @@ set autoindent
  
 " quicker than reaching for escape
 inoremap jk <ESC>
- 
+
 " show line numbers
 set number
  
-let g:NERDCreateDefaultMappings = 1  
+let g:NERDCreateDefaultMappings = 1
  
 testersquatch@penguin:~$ nvim +PlugInstall
